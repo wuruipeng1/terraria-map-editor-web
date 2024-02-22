@@ -25,7 +25,8 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development node ./parcel-proxy-config.js",
     "build-gh": "cross-env NODE_ENV=production parcel build --public-url /terraria-map-editor-web/ ./src/index.html",
-    "build": "cross-env NODE_ENV=production parcel build ./src/index.html"
+    "build": "cross-env NODE_ENV=production parcel build ./src/index.html",
+    "serve-build": "serve dist"
   },
   "repository": {
     "type": "git",
